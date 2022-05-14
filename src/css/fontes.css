@@ -1,3 +1,5 @@
+@charset "UTF-08";
+
 @font-face {
     font-family: 'ssf4';
     src: url('../fontes/SSF4_ABUKET.woff');
@@ -6,4 +8,8 @@
 @font-face {
     font-family: 'command';
     src: url('../fontes/PILOT_COMMAND.otf');
+}
+
+.cabecalho .titulo {
+    font-family: 'ssf4', sans-serif;
 }
