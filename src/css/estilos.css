@@ -1,0 +1,95 @@
+@charset "UTF-08";
+
+/* Seletor global */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+
+/* Variáves */
+:root {
+    --cor-vermelha-principal: #D60223;
+    --cor-vermelha-media: #f89284;
+    --cor-vermelha-fraca: #ffbebe;
+
+    --cor-marrom-fraco: #ebd5d2;
+
+    --cor-azul-principal: #0271F7;
+    --cor-azul-media: #d3ffff;
+    --cor-azul-fraca: #8fbff8;
+
+    --cor-roxa-fraca: #c2c2f1;
+
+    --cor-titulo-fraco: #faefd8;
+    --cor-titulo-forte: #f77a2c;
+
+    --cor-padrao: #ffffff;
+    --cor-secundaria: #000000;
+}
+
+/* Exportação de fonte do font face */
+@font-face {
+    font-family: 'ssf4';
+    src: url('../fontes/SSF4_ABUKET.woff');
+}
+
+@font-face {
+    font-family: 'command';
+    src: url('../fontes/PILOT_COMMAND.otf');
+}
+
+/* Corpo da Página */
+body {
+    font-family: 'ssf4', Courier, monospace;
+    background: var(--cor-secundaria);
+}
+
+body::before {
+    content: '';
+    background-image: url("../imagens/1cYrMYF.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+}
+
+/* Corpo da página */
+main {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Cabeçlho */ 
+.cabecalho {
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.cabecalho .titulo {
+    color: var(--cor-titulo-fraco);
+    text-transform: uppercase;
+    font-size: 52px;
+    line-height: 102px;
+    -webkit-text-stroke: 2px var(--cor-titulo-forte);
+}
+
+div .selecao-de-personagens {
+    
+
+}
+
+
+/* Lista 
+ul {
+    list-style: none;
+}*/
+
