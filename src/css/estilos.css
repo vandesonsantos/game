@@ -151,7 +151,7 @@ ul {
     border: 2px solid var(--cor-padrao);
     background-color: var(--cor-padrao);
     width: 30%;
-    height: 160%;
+    height: 160px;
     cursor: pointer;
     z-index: 2;
     border-radius: 5px;
@@ -185,12 +185,12 @@ ul {
 }
 
 .selecao-de-personagens .lista-de-personagens .personagem.jogador-2-selecionado:hover {
-    animation: c-glowing-blue .3s ease-in-out infinite;
+    animation: c-glowing-red .3s ease-in-out infinite;
     animation-direction: alternate;
 }
 
 .selecao-de-personagens .lista-de-personagens .personagem .tag {
-    /* display: none; */
+    display: none;
     font-family: 'Times New Roman', Times, serif;
     position: absolute;
     top: 5px;
@@ -199,7 +199,6 @@ ul {
     transition: opacity .3 ease-in-out;
     animation: text-glowing-blue .3s ease-in-out infinite;
     animation-direction: alternate;
-
 }
 
 .selecao-de-personagens .lista-de-personagens .personagem.selecionado .tag {
