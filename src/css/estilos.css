@@ -1,6 +1,6 @@
 @charset "UTF-08";
 
-/* Seletor global */
+/* Seletor global-reset */
 * {
     margin: 0;
     padding: 0;
@@ -106,7 +106,7 @@ main {
 
 .selecao-de-personagens .personagem-grande .nome::before {
     content: '';
-    height: 10px;
+    height: 30px;
     width: 100%;
     position: absolute;
     bottom: -15px;
@@ -117,7 +117,7 @@ main {
     color: var(--cor-padrao);
     font-family: 'command', Arial, Helvetica, sans-serif ;
     position: absolute;
-    bottom: -15px;
+    bottom: 0;
     width: 100%;
     font-size: 27px;
 }
@@ -203,5 +203,13 @@ ul {
 
 .selecao-de-personagens .lista-de-personagens .personagem.selecionado .tag {
     display: block;
-    
+    animation: text-glowing-blue .3s ease-in-out infinite;
+    animation-direction: alternate;
 }
+
+.selecao-de-personagens .lista-de-personagens .personagem.jogador-2-selecionado .tag {
+    display: block;
+    animation: text-glowing-red .3s ease-in-out infinite;
+    animation-direction: alternate;
+}
+
