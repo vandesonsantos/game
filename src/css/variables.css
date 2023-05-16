@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'ssf4';
+    src: url('../fontes/SSF4_ABUKET.woff');
+}
+
+@font-face {
+    font-family: 'command';
+    src: url('../fontes/PILOT_COMMAND.otf');
+}
+
+:root{
+    --cor-vermelha-principal: #D60223;
+    --cor-vermelha-media: #f89284;
+    --cor-vermelha-fraca: #ffbebe;
+
+    --cor-marrom-fraco: #ebd5d2;
+
+    --cor-azul-principal: #0271F7;
+    --cor-azul-media: #d3ffff;
+    --cor-azul-fraca: #8fbff8;
+
+    --cor-roxa-fraca: #c2c2f1;
+
+    --cor-titulo-fraco: #faefd8;
+    --cor-titulo-forte: #f77a2c;
+
+    --cor-padrao: #ffffff;
+    --cor-secundaria: #000000;
+
+    --font-title: 'ssf4', Courier, monospace;
+    --font-character-name: 'command', Helvetica, sans-serif;
+}
+

@@ -1,57 +1,18 @@
-@charset "UTF-08";
 
-/* Seletor global-reset */
-* {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font: inherit;
-    vertical-align: baseline;
-    box-sizing: border-box;
-}
-
-/* Variáves */
-:root {
-    --cor-vermelha-principal: #D60223;
-    --cor-vermelha-media: #f89284;
-    --cor-vermelha-fraca: #ffbebe;
-
-    --cor-marrom-fraco: #ebd5d2;
-
-    --cor-azul-principal: #0271F7;
-    --cor-azul-media: #d3ffff;
-    --cor-azul-fraca: #8fbff8;
-
-    --cor-roxa-fraca: #c2c2f1;
-
-    --cor-titulo-fraco: #faefd8;
-    --cor-titulo-forte: #f77a2c;
-
-    --cor-padrao: #ffffff;
-    --cor-secundaria: #000000;
-}
 
 /* Exportação de fonte do font face */
-@font-face {
-    font-family: 'ssf4';
-    src: url('../fontes/SSF4_ABUKET.woff');
-}
 
-@font-face {
-    font-family: 'command';
-    src: url('../fontes/PILOT_COMMAND.otf');
-}
 
 /* Corpo da Página */
 body {
-    font-family: 'ssf4', Courier, monospace;
+    font-family: var(--font-title);
     background: var(--cor-secundaria);
 }
 
 /* Pseudo element para adicionar a imagem gif na página */
 body::before {
     content: '';
-    background-image: url("../imagens/1cYrMYF.gif");
+    background-image: url("../imagens/background-desktop.gif");
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
@@ -115,7 +76,7 @@ main {
 
 .selecao-de-personagens .personagem-grande .nome h2 {
     color: var(--cor-padrao);
-    font-family: 'command', Arial, Helvetica, sans-serif ;
+    font-family: var(--font-character-name);
     position: absolute;
     bottom: 0;
     width: 100%;
