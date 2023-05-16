@@ -1,15 +1,13 @@
-/* @charset "UTF-08"; */
-
 @media (max-width: 1280px){
-    .cabecalho .titulo {
+    .header .title {
         font-size: 39px;
     }
 
-    .selecao-de-personagens .lista-de-personagens {
+    .character-selection .lista-de-personagens {
         max-width: 330px;
     }
 
-    .selecao-de-personagens .lista-de-personagens .personagem {
+    .character-selection .lista-de-personagens .personagem {
         width: 100px;
         height: 100px;
     }
@@ -29,17 +27,17 @@
         justify-content: start;
     }
 
-    .cabecalho .titulo {
+    .header .title {
         font-size: 22px;
     }
 
-    .selecao-de-personagens .personagem-grande {
+    .character-selection .personagem-grande {
         display: none;
     }
 }
 
 @media (max-width: 360px) {
-    .cabecalho .titulo {
+    .header .title {
         font-size: 19px;
     }
 }
