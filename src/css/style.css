@@ -15,7 +15,7 @@ body::before{
 }
 
 main{
-    min-height: 100vh;
+    min-height: 80vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -37,8 +37,8 @@ main{
 
 .character-selection{
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
 }
 
 .character-selection .personagem-grande {
